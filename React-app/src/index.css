@@ -1,0 +1,95 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  background-image: url(./assets/react-icon-large.png);
+  background-position: right 75%;
+  background-repeat: no-repeat;
+  height: 100vh;
+ 
+}
+
+body {  
+  
+  height: 100vh;
+}
+
+.nav-container {
+  background: #21222a;
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding: 2rem;
+}
+
+.react-logo {
+  background-color: #21222a;
+  height: 50px;
+  margin-right: 5px;
+}
+
+h3 {
+  color: rgb(45, 198, 209);
+  margin-right: auto;
+}
+
+h4 {
+  color: #deebf8;
+  font-weight: 600;
+}
+
+.main-container {
+  color: #fff;
+  margin-top: 72px;
+  width: 500px;
+}
+
+h1 {
+  font-size: 39px;
+  letter-spacing: -0.05em;
+  margin: 3rem 1rem;
+  text-align: left;   
+}
+
+ul li {  
+  line-height: 2rem;
+  margin-left: 4rem;
+  text-align: left;
+}
+
+::marker {
+  color: rgb(45, 198, 209);
+  font-size: 1.5rem;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
